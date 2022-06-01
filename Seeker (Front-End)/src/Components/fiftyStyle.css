@@ -1,0 +1,83 @@
+.path-card{
+    position: relative;
+  margin: 0;
+  
+   padding-left: 3.4%;
+   padding-right: 3.4%;
+        height: 100%;
+    width: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 250px;
+    max-height: 240px;
+ float: left;
+    display: block;
+    color: rgb(43, 44, 44);
+size: 4px;
+background-color: rgb(228,230,234);
+background-color: linear-gradient(196deg, rgba(228,230,234,1) 58%, rgba(255,255,255,1) 85%);
+/*text-shadow: 3px 3px 10px rgb(0, 0, 0);*/
+
+border-radius: 7%;
+padding-top: 6%;
+padding-bottom: 2%;
+    box-shadow: 1px 1px 20px rgb(130, 135, 138);
+
+
+}
+
+.arrow{
+    text-shadow: 4px 4px 20px rgb(12, 43, 194);
+color: rgb(220, 238, 238);
+    size: 10px;
+   visibility: hidden;
+   position: absolute; 
+   bottom: 3.5%;
+right: 6.6%;
+margin: 0;
+
+
+}
+
+.path-card:hover{
+color: aliceblue;
+  background-color: rgb(216, 60, 62);
+    /*box-shadow: 10px 10px 50px rgb(51, 106, 138) inset;*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+ /*text-shadow: -3px -3px 10px rgb(0, 0, 0);*/
+padding-top: 4%;
+padding-bottom:4%;
+
+
+}
+.path-card:hover .arrow{
+    visibility: visible;
+  display: block;
+
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.hide-desc{
+    width: 100%;
+   display: none;
+   text-align: left;
+   
+}
+.path-card:hover .hide-desc{
+   display: block;
+   
+    
+}
+.path-card:hover #img-shadow{
+
+    box-shadow: -10px -10px 100px rgb(50, 47, 212) ;
+border-radius: 100%;
+
+}
+
+

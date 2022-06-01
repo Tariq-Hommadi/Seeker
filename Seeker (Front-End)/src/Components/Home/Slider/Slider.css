@@ -1,0 +1,314 @@
+
+.parent {
+    width: 350px;
+    margin: 25px;
+    height: 300px;
+    /* margin: 31px 43px 0px 50px; */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
+    border-bottom-left-radius: calc(1.25rem - 1px);
+    border-bottom-right-radius: calc(1.25rem - 1px);
+    cursor: pointer;
+  }
+  
+  .child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  .parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+  }
+  
+  .parent:hover a, .parent:focus a {
+    display: block;
+  }
+  
+  .child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .arrow-btn {
+    background: linear-gradient(145deg,#e2e8ec,#fff);
+    box-Shadow: 5px 5px 15px #d1d9e6,-5px -5px 15px #fff;
+    color: #023E8A;
+    border: 1px solid #e6e6e6;
+    transition: "all 0.4s ease-out 0s";
+    height: 4rem;
+    width: 4rem;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.arrow-btn:hover {
+
+  background: #023E8A;
+  box-Shadow: 5px 5px 15px #d1d9e6,-5px -5px 15px #fff;
+  color: #fff;
+  border: 1px solid #e6e6e6;
+  transition: "all 0.4s ease-out 0s";
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+}
+
+.R {
+  margin-right: 30px;
+
+}
+
+.L {
+  margin-right: 15px;
+
+}
+
+.Enroll-btn {
+  background: linear-gradient(145deg,#e2e8ec,#fff);
+  box-Shadow: 5px 5px 15px #d1d9e6,-5px -5px 15px #fff;
+  color: #023E8A;
+  border: 1px solid #e6e6e6;
+  width: 90%;
+  height: 3rem;
+  border-radius: 7px;
+  margin-top: 0.5rem;
+  transition: background 0.3s ease-in-out;
+  
+}
+
+.Enroll-btn:hover {
+
+  /* background: linear-gradient(145deg,#ff014f,#d11414); */
+  background: #023E8A;
+  box-Shadow: 5px 5px 15px #d1d9e6,-5px -5px 15px #fff;
+  color: #fff;
+  border: 1px solid #e6e6e6;
+  width: 90%;
+  height: 3rem;
+  border-radius: 7px;
+  margin-top: 0.5rem;
+}
+
+.btnGroup {
+  top: 8rem;
+  position: relative;
+  z-index: 1;
+  margin-left: 54rem;
+  margin-top: -6rem;
+}
+.CC button {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.cen div.parent {
+  align-self: center;
+}
+
+
+/* NavBar css */
+
+/*       Just setting CSS for the page   */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+css {
+  width: 100%;
+  height: 100%;
+}
+
+.position {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#workarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1a3e;
+  font-family: Raleway;
+}
+
+#personal {
+  color:white;
+  text-decoration:none;
+  position:absolute;
+  bottom:15px;
+  right:2%;
+}
+/*    start code for the actual button:         */
+
+
+/*   
+    Spot is the span on the inside of the href that
+    fills the parent and makes the hover and link work
+    for the entire div
+*/
+
+.spot {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/*
+    This is the outer svg wrapper that the SVG itself will 
+    fill. Multiple svg-wrapper classes can be put side by side.
+*/
+
+.svg-wrapper {
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+.svg-wrapper:hover {
+  margin-top: 0;
+  background-color: #d1d9e6;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+/*
+  This is where we define the fill, color, thickness,
+  and stroke pattern of the SVG when there is no hover.
+  The dasharray and offset together define the line position
+  under the words. Here's also where the transition speed is set.
+*/
+
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: #009FFD;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+/* 
+    Pushing the text up into the SVG. Without this the
+    text would be below the div's.
+*/
+
+#text {
+  margin-top: -35px;
+  text-align: center;
+}
+
+#text a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+/* 
+    Changing the shape on hover. I change the color of the stroke,
+make it thinner, then set it to again wrap around the entire parent element.
+*/
+
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke: #06D6A0;
+}
+
+/* button ------------------------------------------- */
+
+a.rn-btn, button.rn-btn {
+  color: var(--color-primary);
+  display: inline-block;
+  list-style: none;
+  padding: 15px 35px;
+  text-decoration: none;
+  width: auto;
+  background: linear-gradient(145deg,#e2e8ec,#fff);;
+  box-shadow: 5px 5px 15px #d1d9e6,-5px -5px 15px #fff;
+  border: 0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  transition:0.4s;
+  z-index: 2;
+  color: #ff014f;
+}
+
+a.rn-btn:hover, button.rn-btn:hover {
+  color: var(--color-primary);
+  display: inline-block;
+  list-style: none;
+  padding: 15px 35px;
+  text-decoration: none;
+  width: auto;
+  background: #ff014f;
+  box-shadow: 5px 5px 15px #d1d9e6,-5px -5px 15px #fff;
+  border: 0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  transition:0.4s;
+  z-index: 2;
+  color: white;
+  background-color:#ff014f ;
+}
+
+
+a.rn-btn:before, button.rn-btn:before {
+  background: linear-gradient(to right bottom,#212428,#16181c);
+  border-radius: 6px;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: var(--transition);
+  width: 100%;
+  z-index: -1;
+}

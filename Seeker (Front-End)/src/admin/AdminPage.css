@@ -1,0 +1,40 @@
+.Edit{
+
+    border-radius: 15px;
+    background-color: #c3c8cf;
+    height: 85px;
+    width: 180px;
+    box-shadow: 0px 0px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -4px rgba(0,0,0,0.75);
+}
+.courseInput{
+padding: 15px;
+    border-radius: 15px;
+    
+    background-color: #d3d9db;
+    width: 800px;
+    margin:0;
+    margin-top: 18px;
+    box-shadow: 0px 0px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -4px rgba(0,0,0,0.75);
+}
+.top{
+    margin-top: 0;
+}
+.myButton{
+    margin: 10px;
+    min-width: 100px;
+    border-radius: 15px;
+}
+
+.input-width{
+    max-width: 150px;
+}
+@media only screen and (max-width: 610px) {
+    .courseInput {
+        width: 300px;
+
+    }
+  }
