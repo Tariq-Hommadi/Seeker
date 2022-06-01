@@ -1,0 +1,80 @@
+/* Social Box*/
+.social-head {
+  position: fixed;
+  left: 18px;
+  bottom: 18px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 12px 5px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  z-index: 3;
+}
+
+.social-head:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.social-head a {
+  margin: 0;
+  display: block;
+  padding: 8px;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.social-head:hover a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.social-head a:hover {
+  color: rgba(255, 255, 255, 1);
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.social-head a:hover .fab[class*="facebook"] {
+  color: #2e6992;
+}
+
+.social-head a:hover .fab[class*="twitter"] {
+  color: #20b2e8;
+}
+
+.social-head a:hover .fab[class*="google"] {
+  color: #d4621d;
+}
+
+.social-head a:hover .fab[class*="snapchat"] {
+  color: #ffe400;
+}
+
+.social-head a:hover .fab[class*="instagram"] {
+  color: #9548eb;
+}
+
+.social-head a:hover .fab[class*="youtube"] {
+  color: #fb4e4e;
+}
+
+.social-head a:hover .fab[class*="snapchat"] {
+  color: #fffc00;
+}
+
+.social-head a:hover .fab[class*="discord"] {
+  color: #7289da;
+}
+/* END */
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.imgIcon{
+  width: 20px;
+  height: 20px;
+}

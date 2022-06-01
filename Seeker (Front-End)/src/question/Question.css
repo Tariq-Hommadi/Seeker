@@ -1,0 +1,212 @@
+.app {
+  background-color: #8c96a3;
+  width: 750px;
+  min-height: 350px;
+  height: min-content;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: block;
+  justify-content: space-evenly;
+  position: relative;
+  justify-content: center;
+}
+
+.score-section {
+  display: relative;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* QUESTION SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60px;
+}
+
+.MyBtn2 {
+  max-width: 150px;
+  margin-top: 18px;
+  margin-right: 18px;
+
+}
+
+.Enroll-btn {
+  background: linear-gradient(145deg, #d1d6da, #f8f9fa);
+
+}
+
+.button2 {
+  position: absolute;
+  width: 1500px;
+  max-width: 150px;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  padding-bottom: 3px;
+  padding-top: 3px;
+
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #c3cfdf;
+  cursor: pointer;
+  background-color: #8c96a3;
+
+}
+
+.button2:hover {
+  background-color: #142196;
+}
+
+.button2:focus {
+  outline: none;
+}
+
+.button2 svg {
+  margin-right: 5px;
+}
+
+.textarea2 {
+  width: 100%;
+  min-height: 100px;
+  margin-top: 4%;
+  color: black;
+  background-color: #d5d7da;
+  padding: 6px;
+}
+
+ 
+  .app {
+    background-color: #8c96a3;
+    width: 750px;
+    min-height: 350px;
+    height: min-content;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: block;
+    justify-content: space-evenly;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .score-section {
+    display: relative;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+   
+  }
+  
+  /* QUESTION SECTION */
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+  }
+  
+  .question-text {
+    margin-bottom: 12px;
+  }
+  
+
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+  }
+  
+  .MyBtn2{
+    max-width: 150px;
+    margin-top: 18px;
+    margin-right: 18px;
+
+  }
+  .Enroll-btn {
+    background:linear-gradient(145deg,#d1d6da,#f8f9fa);
+
+  }
+  .button2 {
+      position: absolute;
+      width: 1500px;
+    max-width: 150px;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+   padding-bottom: 3px;
+   padding-top: 3px;
+
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c3cfdf;
+    cursor: pointer;
+    background-color: #8c96a3;
+
+  }
+   
+  .button2:hover {
+    background-color: #142196;
+  }
+  
+  .button2:focus {
+    outline: none;
+  }
+  
+  .button2 svg {
+    margin-right: 5px;
+  }
+  .textarea2{
+      width: 100%;
+      min-height: 100px;
+margin-top: 4%;
+color: black;
+      background-color: #d5d7da;
+      padding: 6px;
+  }
+
