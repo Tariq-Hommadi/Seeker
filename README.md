@@ -6,3 +6,6 @@
 - Seeker divided to two parts, Fornt-End and Back-End.
 - App Flask mainly for using the model developd usig RandomForestClassifier (run the server of flask first).
 - Flask api is called by another api on the backend server.
+
+
+![alt text]('images\1.jpg')
