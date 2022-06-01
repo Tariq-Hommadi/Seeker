@@ -8,4 +8,4 @@
 - Flask api is called by another api on the backend server.
 
 
-![alt text]('images\1.jpg')
+![alt text]('https://github.com/Tariq-Hommadi/Seeker/blob/main/images/1.jpg')
